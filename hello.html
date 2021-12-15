@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="hello.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+
+        <img src="ressources/logo.png" alt="Logo du site">
+
+    </header>
+
+    <nav>
+
+        <p><a href="#travelbook">Carnets de voyages</a></p>
+        <p><a href="#leave">Quand partir ?</a></p>
+        <p><a href="#propos">A propos </a></p>
+        <p><a href="#contact">Me contacter</a></p>
+        
+    </nav>
+
+    <main>
+
+        <h1 class="notebook" id="travelbook">Carnets de voyage</h1>
+
+        <section class="cut">
+
+            <h2>Mes derniers voyages</h2>
+
+            <h3>Vienne, Autriche</h3>
+
+            <article class="autriche">
+
+               
+                <img src="ressources/vienne.jpg" alt="Vienne Autriche">
+                <div>
+                <p>Vienne est un mélange d’architecture fastueuse, de musique et de charme pittoresque.</p>
+                <p>Semblable à nulle autre, Vienne préserve intact son aspect historique d’origine marqué par des édifices fastueux datant de l’époque baroque et des débuts du XXème siècle.</p>
+                <p>La moitié de la ville est située sur le Danube et offre des parcs, la forêt viennoise et même des zones viticoles pour les loisirs.</p>
+                <button type="button" name="Vienne"><a class="needtoKnow" href="https://fr.wikipedia.org/wiki/Vienne_(Autriche)" target="_blank">En savoir plus</a></button>
+                </div>
+
+            </article>
+
+            <h3>Marrakech, Maroc</h3>
+
+            <article class="maroc">
+
+               
+                <img src="ressources/marrakech.jpg" alt="Marrakech Maroc">
+                <div>
+                <p>Marrakech, est une ville située dans le centre du Maroc au pied des montagnes de l'Atlas. <strong>Marrakech</strong> est surnommée <span class="red">« la ville rouge »</span> ou la <span class="ocre">« ville ocre »</span> en référence à la couleur rouge d'une grande partie de ses immeubles et ses maisons.</p>
+                <p>Marrakech est une ville unique en son genre qui se distingue totalement du reste. Visiter Marrakech est une expérience qui stimulera tous vos sens : ses couleurs, ses saveurs et ses odeurs vous marqueront dès votre arrivée et vous accompagneront des semaines après votre retour.</p>
+                <button type="button" name="Marrakech"><a href="https://fr.wikipedia.org/wiki/Marrakech" target="_blank" class="needtoKnow">En savoir plus</a></button>
+                </div>
+
+            </article>
+
+            <article class="tab"> 
+
+                <h2 id="leave">Les meilleurs saisons pour voyager</h2>
+
+                <table>
+
+                    <thead>
+                        <th>Ville</th>
+                        <th>Pays</th>
+                        <th>Périodes</th>
+                    </thead>
+
+                    <tr class="grey">
+                        <td>Bali</td>
+                        <td>Indonésie</td>
+                        <td>juin à septembre</td>
+                    </tr>
+
+                    <tr>
+                        <td>Marrakech</td>
+                        <td>Maroc</td>
+                        <td>mars à juin, septembre à novembre</td>
+                    </tr>
+
+                    <tr class="grey">
+                        <td>Miami</td>
+                        <td>USA</td>
+                        <td>janvier à avril, novembre, décembre</td>
+                    </tr>
+
+                    <tr>
+                        <td>Vienne</td>
+                        <td>Autriche</td>
+                        <td>juin à septembre</td>
+                    </tr>
+
+                    <tr class="grey">
+                        <td>Sydney</td>
+                        <td>Australie</td>
+                        <td>mars à mai, septembre et octobre</td>
+                    </tr>
+
+                </table>
+              
+            </article>
+
+            </section>
+
+            <section class="full">
+
+                 <article class="cut">
+
+                    <div class="asside">
+
+                        <h2 id="propos">A propos</h2>
+
+                        <p>Je m'appelle Claire et j'aime les <strong>voyages</strong> et l'<strong>aventure</strong></p>
+                        <p>C'est suite à un long <strong>tour du monde</strong> que j'ai changé de vie et que j'ai décidé de créer ce blog pour vous aider à voyager</p>
+                        <p>Ma passion pour le voyage est désormais devenu mon métier</p>
+                        <p>Vous pourre trouver ici de l'inspiration et de nombreux conseils pour <strong>réduire votre budget voyages</strong> et pouvoir partir plus souvent</p>
+
+                    </div>
+
+                </article>
+
+            </section>
+
+            <section class="cut">
+
+            <article>
+
+                <h2 id="contact">Me contacter</h2>
+
+                <p><i class="fas fa-map-marker-alt"></i> 31 Rue d'Auteuil, Paris 16<sup>ème</sup></p>
+                <adress><a href="mailto:claire@hellowolrd.com"><i class="fas fa-envelope"></i> claire@helloworld.com</a></address>
+                <p><i class="fas fa-mobile-alt"></i> 0601030507</p>   
+
+                <h3>Formulaire de contact</h3>
+
+                <form>
+
+                    <div class="row">
+
+                        <div class="column">
+                            
+                            <input type="text" name="name" placeholder="Votre nom">
+                            <input type="text" name="mail" placeholder="Votre email">
+                            <input type="text" name="phone" placeholder="Votre numéro de téléphone">
+
+                        </div>
+
+                    
+
+                        <textarea name="textarea" placeholder="Votre message"></textarea>
+
+                    </div>
+
+                    <div class="send">
+                        
+                         <button type="button" name="send">Envoyer</button>
+
+                    </div>
+
+                </form>
+
+                <div class="follow"><p>Suivez-moi sur :</p>
+                    <div class="icone">
+
+                        <i class="fab fa-facebook"></i><i class="fab fa-pinterest-square"></i><i class="fab fa-twitter"></i><i class="fab fa-instagram-square"></i>
+                    
+                    </div>
+                </div>
+
+
+                </article>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <img src="https://3wa.fr/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2020/01/cropped-big.png.webp" alt="logo 3wa">
+        <p>Ce matériel pédagogique est la propriété de la 3W Academy. Cet exercice a été réalisé par Christiane Dumont.</p>
+        <p>Images fournies par Pixabay.</p>
+
+    </footer>
+    
+</body>
+</html>
